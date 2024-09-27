@@ -2,8 +2,12 @@
 Prerequisites:
     1.Install Docker SDK for Python: You’ll need the Docker SDK for Python to interact with Docker images.
        by using this command :-  "pip install docker"
+    
+    
     2.Install Trivy on your machine for scanning container images. If you don't have Trivy installed, you can install it shown below:
+    
     For Linux command:- "sudo apt install trivy"
+    
     For Docker:-  "docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy image python"
     
     
